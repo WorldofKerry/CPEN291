@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    line-height: 1.3;
+}
+
+
+/* Add your styles below here */
+
+header {
+    display: flex;
+    padding: 2px;
+}
+
+.header-left {
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25%;
+}
+
+.header-right {
+    flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-navigation {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: col;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.header-button {
+    flex-grow: 1;
+    padding: 0px 40px 0px;
+    margin: 10px 10px 0px;
+    color: white;
+    background-color: rgb(226, 38, 76);
+    border-radius: 10px;
+}
+
+.header-title {
+    flex-grow: 1;
+    font-size: xxx-large;
+    justify-content: right;
+    align-items: flex-end;
+    display: flex;
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+.section {
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+#section1 {
+    background-color: rgb(226, 38, 76);
+}
+
+.section-bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section-text {
+    flex-grow: 1;
+    width: 75%;
+}
+
+.section1-left h1 {
+    font-size: xx-large;
+}
+
+.section-right {
+    flex-grow: 1;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-single-image {
+    width: 80%;
+    height: auto;
+    margin: 10px 50px 20px 0px;
+}
+
+.section-double-image-left {
+    width: 47%;
+    height: auto;
+    margin: 0% 1% 2% 2%;
+}
+
+.section-double-image-right {
+    width: 47%;
+    height: auto;
+    margin: 0% 2% 2% 1%;
+}
+
+.section-title {
+    font-size: xx-large;
+    margin: 20px 20px 0px;
+}
+
+.section-caption {
+    text-align: left;
+    margin: 10px 0px 10px 20px;
+}
+
+.button-round {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/2286/2286961.png');
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 5px 5px 15px 10px;
+}
+
+#logo {
+    width: 150px;
+}
+
+#section1-button {
+    width: 150px;
+    height: 50px;
+    margin: 0px 20px 20px 20px;
+    border-radius: 10px;
+    background-color: rgb(231, 255, 255);
+}
+
+html {
+    background-color: rgb(231, 255, 255);
+}
+
+.footer-navigation {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px 10px auto;
+}
+
+.footer-link {
+    margin: 0px 5px 0px;
+    font-size: large;
+}
+
+p {
+    font-size: large;
+}
